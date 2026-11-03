@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: agentcontrol
+    runtime: node
+    buildCommand: ""
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 10000
+    disk:
+      name: agentcontrol-data
+      mountPath: /opt/render/project/src/data
+      sizeGB: 1

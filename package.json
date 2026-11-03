@@ -1,0 +1,14 @@
+{
+  "name": "agentcontrol",
+  "version": "2.0.0",
+  "description": "Contrôle des agents et points de relais — serveur partagé, admin accessible dans le monde entier",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "node server.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "private": true
+}
